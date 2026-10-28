@@ -15,7 +15,6 @@ function readAppVersion(): string {
 }
 
 const nextConfig: NextConfig = {
-  output: 'export', // 强制静态导出
   reactStrictMode: true,
   env: {
     APP_VERSION: readAppVersion(),
